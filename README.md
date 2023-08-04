@@ -15,3 +15,4 @@ DizzyDrinking is a small and simple app to be used on parties or other social ev
 
 * Available for free at Google Play Store
 * Runs on Android 4.0.3+
+* Current version 1.3
