@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Typeface;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -123,10 +124,10 @@ public class StartActivity extends AppCompatActivity implements AdapterView.OnIt
                     }
 
                 InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-                imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
+                    View currentView = getCurrentFocus();
+                if (currentView != null)
+                    imm.hideSoftInputFromWindow(currentView.getWindowToken(),
                         InputMethodManager.RESULT_UNCHANGED_SHOWN);
-
-
             }
         });
 
