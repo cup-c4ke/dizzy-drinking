@@ -21,17 +21,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ContactActivity"
-            android:label="@string/dizzy"
-            android:parentActivityName=".StartActivity"
-            android:screenOrientation="portrait"
-            android:noHistory="true"
-            android:theme="@style/Theme.AppCompat.Light" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.patrick.dizzydrinking.StartActivity" />
-        </activity>
-        <activity
             android:name=".CategoryActivity"
             android:noHistory="true"
             android:label="@string/dizzy"

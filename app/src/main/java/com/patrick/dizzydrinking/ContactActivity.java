@@ -1,9 +1,6 @@
 package com.patrick.dizzydrinking;
 
-import android.app.ListActivity;
-
-
-public class ContactActivity extends ListActivity {}
+public class ContactActivity {}
 
     /*public static ArrayList<String> contactList;
     public static ArrayList<String> partialContactList;
