@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "com.patrick.dizzydrinking"
         minSdkVersion 15
-        targetSdkVersion 35
-        versionCode 8
-        versionName "1.6"
+        targetSdkVersion 36
+        versionCode 9
+        versionName "1.7"
     }
     buildTypes {
         release {
