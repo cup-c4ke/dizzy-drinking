@@ -105,19 +105,6 @@ public class GameActivity extends AppCompatActivity {
             }
         });
 
-//        //Clock Image Button
-//        ImageButton clock = (ImageButton) findViewById(R.id.imageButton3);
-//        clock.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v){
-//                Chronometer chronometer = (Chronometer) findViewById(R.id.chronometer3);
-//
-//                if(!chronometer.isActivated()) {
-//                    chronometer.start();
-//                } else chronometer.stop();
-//            }
-//        });
-
     }
 
 
